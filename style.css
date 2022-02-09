@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(20, 31, 36);
+  min-height: 100vh;
+  min-width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.containers{
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+.card{
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.hero{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-container{
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 90px;
+  background-color: rgba(20, 156, 31, 0.959);
+  border-radius: 5px;
+  margin: 3px;
+  padding: 7px;
+}
+.btn-city{
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  padding: 7px;
+  background-color: rgb(18, 76, 194);
+  
+}
+a{
+  text-decoration: none;
+}
+.display {
+  border: 2px solid white;
+  color: white;
+  max-width: 60%;
+  margin: auto;
+  font-size: 15px bold;
+  padding: 5px 10px;
+}
+.display h3 {
+  padding-bottom: 5px;
+}
+.btn-submit{
+  color: aliceblue;
+}
